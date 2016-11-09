@@ -13,11 +13,10 @@
     <key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>CheatSheet</string>
+		<string>zoom-win</string>
         <key>fw_app_bundle_id</key>
         <string>com.github.cfellner.filewave.zoom-win</string>
         <key>fw_destination_root</key>
-        <string>/Applications/%NAME%.app</string>
 	</dict>
 	<key>Process</key>
 	<array>
@@ -27,7 +26,6 @@
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%/%NAME%.app/Contents/Info.plist</string>
             </dict>
         </dict>
 		<dict>
